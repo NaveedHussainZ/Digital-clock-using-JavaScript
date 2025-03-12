@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digi-Clock</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, rgb(255, 0, 89), yellow);
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .text {
+      background: rgba(255, 255, 255, 0.809);
+      font-size: 2.5rem;
+      padding: 10px;
+      color: black;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+
+    .clock {
+      background-color: rgb(0, 0, 0);
+      padding: 20px 30px;
+      border-radius: 20px;
+      margin-top: 10px;
+      font-size: 40px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="text"><span>Digital Clock</span></div>
+      <div class="clock"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
